@@ -1,0 +1,27 @@
+body {
+  font-size: 24px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button:disabled {
+  opacity: 0.5;
+}
